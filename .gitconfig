@@ -1,0 +1,15 @@
+[user]
+	name = Haruaki Ogawa
+	email = hogawa@guidewire.com
+[core]
+	autocrlf = input
+	editor = vim
+[alias]
+  st = status
+  sh = show
+  co = checkout
+  br = branch
+  modified = diff --diff-filter=M
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+  lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+          
